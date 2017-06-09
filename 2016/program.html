@@ -1,0 +1,501 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta property="og:url" content="http://event.openstack.or.kr/2016/index.html"/> 
+<meta property="og:site_name" content="OpenStack Days Korea"/>  
+<meta property="og:image" content="http://event.openstack.or.kr./images/logo.jpg"/> 
+
+<title>OpenStack Days Korea</title>
+ 
+<script language="javascript"> 
+<!--
+	function notice_news()
+	{
+		window.open("http://www.zdnet.co.kr/conference/2011/6th_cvision/./","special_news","width="+screen.width+", height="+screen.height+", scrollbars=yes,resizable=no");
+	}
+ 
+	function regPop(){
+		window.open("http://common.meganews.co.kr/regChk.html?eventno=50", 'regPop', 'Width=380,height=260,scrollbars=yes,menubar=no')
+		return;
+	}
+ 
+//-->
+</script>
+ 
+<link href="http://common.meganews.co.kr/css/default_openstack.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://common.meganews.co.kr/include/jquery.js"></script>
+ 
+<script language="javascript"> 
+<!--
+//쿠키의 값을 가져오는 메소드
+function getCookie( name )
+{
+   var nameOfCookie = name + "=";
+   var x = 0;
+   while ( x <= document.cookie.length )   {
+      var y = (x+nameOfCookie.length);
+      if ( document.cookie.substring( x, y ) == nameOfCookie ) {
+         if ( (endOfCookie=document.cookie.indexOf( ";", y )) == -1 )
+            endOfCookie = document.cookie.length;
+         return unescape( document.cookie.substring( y, endOfCookie ) );
+      }
+      x = document.cookie.indexOf( " ", x ) + 1;
+      if ( x == 0 )  break;
+   }
+   return "";
+}
+
+//쿠키값이 없을때만 팝업창 띄운다.
+function open_pop(fimage, features, cookie001) {
+    if ( getCookie( cookie001 ) != "done" ) {
+       var iview = window.open(fimage,'pop02', features);
+       iview.focus();
+       self.name="mmain";
+    }
+}
+
+//open_pop('http://msc.zdnet.co.kr/1st/popup.html','toolbar=no,height=420,width=350,scrollbars=no,resizable=no,status=yes,left=0,top=50,leftmargin=50,topmargin=0', 'cookie001');
+ 
+	//function window::onload(){ 
+	//	window.open("http://cvision.zdnet.co.kr/6th/main_popup.html","noticepop","width=330, height=200, scrollbars=no,resizable=no left=300,top=300");
+	 //}
+	function notice()
+	{
+		alert("준비중입니다.");
+	}
+	function regPop()
+	{
+		window.open("http://common.meganews.co.kr/regChk.html?eventno=50", 'regPop', 'Width=380,height=260,scrollbars=yes,menubar=no')
+		return;
+	}
+//-->
+</script>
+<style type="text/css">
+.bg_all { background:url(./images/main_bg.jpg) repeat-x #ffffff; }
+</style>
+</head>
+<body class="bg_all" onload="">
+<div id="wrap">
+  <div id="maincontents"> 
+		<!-- 메뉴 -->
+				<div id="gdn_box">
+<div id="menu">
+        <ul>
+                <li><a href="./"><img src="./openstack/menu01_off.jpg" onmouseover="this.src='./openstack/menu01_on.jpg'" onmouseout="this.src='./openstack/menu01_off.jpg'" alt="행사소>개" /></a></li>
+                <li><a href="program.html"><img src="./openstack/menu02_on.jpg" onmouseover="this.src='./openstack/menu02_on.jpg'" onmouseout="this.src='./openstack/menu02_off.jpg'" alt="프>로그램" /></a></li>
+                <li><a href="speaker.html"><img src="./openstack/menu03_off.jpg" onmouseover="this.src='./openstack/menu03_on.jpg'" onmouseout="this.src='./openstack/menu03_off.jpg'" alt="스>피커" /></a></li>
+                <li><a href="register.html"><img src="./openstack/menu04_off.jpg" onmouseover="this.src='./openstack/menu04_on.jpg'" onmouseout="this.src='./openstack/menu04_off.jpg'" alt="사
+전등록" /></a></li>
+                <li><a href="exhibit.html"><img src="./openstack/menu05_off.jpg" onmouseover="this.src='./openstack/menu05_on.jpg'" onmouseout="this.src='./openstack/menu05_off.jpg'" alt="스>폰서" /></a></li>
+                <li><a href="info.html"><img src="./openstack/menu06_off.jpg" onmouseover="this.src='./openstack/menu06_on.jpg'" onmouseout="this.src='./openstack/menu06_off.jpg'" alt="행사안
+내" /></a></li>
+        </ul>
+</div>
+
+		</div>
+ 
+		<!--탑이미지-->
+		<div id="top2">
+			<img src="./images/main_Final.jpg" alt="" width="929" height="320" border="0" usemap="#map" />
+          <map name="map" id="map">
+    <area alt="" target="_blank" href="https://www.facebook.com/groups/openstack.kr/" coords="740,15,800,65" shape="rect">
+    <area alt="" target="_blank" href="https://github.com/openstack-kr" coords="811,15,861,66" shape="rect">
+    <area alt="" target="_blank" href="http://openstack.or.kr/feed/" coords="870,15,919,65" shape="rect">
+          </map>
+
+       <!--//탑이미지-->
+			<script language="javascript"> 
+			function hamsu() { 
+			   alert("준비중입니다.") 
+			} 
+			</script> 
+
+	</div>
+	<div id="contents">
+		  <p><!--<img src="http://common.meganews.co.kr/images/mc_bg_top.jpg" alt="" />--></p>
+		  <!-- 왼쪽콘텐츠 -->
+	  <div id="l_contents2">
+		    <p><img src="http://common.meganews.co.kr/images/msc/sub_main_tit02.gif" alt=""/></p>
+<!-- 페이스북 좋아요-->
+<div style="padding:10px 0px 0px 0px;"></div>
+<div align=right>
+<iframe src="http://www.facebook.com/plugins/like.php?href=http://event.openstack.or.kr/2016/index.html&amp;locale=ko_KR&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;font=arial&amp;colorscheme=light" scrolling="no" frameborder="0" allowTransparency="true" style="border:none; overflow:hidden; width:100px; height:24px;"></iframe>
+</div>
+<div style="padding:10px 0px 0px 0px;"></div>
+<!--// 페이스북 좋아요-->
+		    <p style="text-align:center">&nbsp;</p>
+		    <div id="register" style="margin-top:10px;">
+		      <div id="register_box02">
+	          <!-- 프로그램 리스트 시작-->
+ <table width="880" align="center" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>    
+    <td height="36" align="center" class="bd_t" bgcolor="#cc0000" colspan="5">
+    	<strong style="color: rgb(255, 255, 255);">Keynote</strong>
+    </td>
+    <td align="center" class="bd_t bd_l" valign="center" bgcolor="#03acdc">
+    	<span class="ps_txt3" style="color: rgb(255, 255, 255);">TrackV</span>
+    </td>
+</tr>
+<tr>
+    <td class="bd_t">09:20~09:30</td>
+    <td height="36" align="center" class="bd_t pd_10" colspan="4">
+    	<p class="ps_txt">개회사</p>
+    	<p class="ps_txt4">OpenStack Korea User Group 장현정 대표</p>
+    </td>
+    <td align="center" class="bd_l bd_t">&nbsp;</td>
+</tr>
+<tr>
+    <td class="bd_t ">09:30~10:00</td>
+    <td align="center" class="bd_t pd_10" colspan="4">
+<p class="ps_txt">Welcome to the Algorithm Economy</p>    	
+    	<p class="ps_txt4"> Mark Collier, COO / OpenStack Foundation</p>
+    </td>
+    <td align="center" class="bd_l bd_t">&nbsp;</td>
+    </tr>
+<tr>
+    <td class="bd_t ">10:00~10:20</td>
+    <td align="center" class="bd_t pd_10" colspan="4">
+ 		<p class="ps_txt">How open HW and SW drives telco infrastructure innovations</p>
+    	<p class="ps_txt4">이강원 상무 / SK텔레콤</p>
+    </td>
+    <td align="center" class="bd_l bd_t">&nbsp;</td>
+</tr>
+<tr>
+    <td class="bd_t ">10:20~10:40</td>
+    <td align="center" class="bd_t pd_10" colspan="4">
+    	<p class="ps_txt">아이디어 이코노미에서의 하이브리드 클라우드 전략</p>
+        <p class="ps_txt4">박관종 상무 / HPE</p>
+    </td>
+    <td align="center" class="bd_l bd_t">&nbsp;</td>
+</tr>
+<tr>
+    <td class="bd_t bg_f6 ">10:40~11:00</td>
+    <td height="36" align="center" class="bd_t bg_f6" colspan="5"><strong>Break &amp; Community Talk</strong></td>
+</tr>
+<tr>
+    <td class="bd_t ">11:00~11:20</td>
+    <td align="center" class="bd_t pd_10" colspan="4">
+    	<p class="ps_txt">Innovating Openstack Network with SDN solution</p>    	
+        <p class="ps_txt4">박성용 CTO / KulCloud</p>
+    </td>
+    <td align="center" class="bd_l bd_t" rowspan="3">
+	    <p class="ps_txt">10:30~12:00(90분)<br>대학생 대상<br>해커톤</p>
+        <p class="ps_txt4">진행자 : 유명환</p>
+    </td>
+</tr>
+<tr>
+    <td class="bd_t ">11:20~11:40</td>
+    <td align="center" class="bd_t pd_10" colspan="4">    	
+<p class="ps_txt">An SDN Pioneer's Vision of Networking</p>        
+<p class="ps_txt4">Guido Appenzeller, CTSO / VMware</p>
+    </td>
+</tr>
+<tr>
+    <td class="bd_t ">11:40~12:00</td>
+    <td align="center" class="bd_t pd_10" colspan="4">
+    	<p class="ps_txt">Microsoft is Open!</p>
+        <p class="ps_txt4">김명호 박사 / Microsoft</p>
+    </td>
+</tr>
+<tr>
+    <td class="bd_t bg_f6 ">12:00~13:00</td>
+    <td height="36" align="center" class="bd_t bg_f6" colspan="5"><strong>Lunch Break</strong></td>
+</tr>
+
+<tr>
+	<td width="50" class="bd_t pd_l5">&nbsp;</td>
+    <td width="165" height="30" align="center" class="bd_t pd_l5" bgcolor="#003366">
+    	<strong style="color: rgb(255, 255, 255);">TrackⅠ</strong>
+    </td>
+    <td width="165" align="center" class="bd_t psbd_l pd_l5" bgcolor="#014c7c">
+   		<strong style="color: rgb(255, 255, 255);">TrackⅡ</strong>
+    </td>
+    <td width="165" align="center" class="bd_t psbd_l pd_l5 " bgcolor="#0070a4">
+    	<strong style="color: rgb(255, 255, 255);">Track III</strong>
+    </td>
+    <td width="165" align="center" class="bd_t psbd_l pd_l5 " bgcolor="#0288c7">
+    	<strong style="color: rgb(255, 255, 255);">Track Ⅳ</strong>
+    </td>
+    <td width="165" align="center" class="bd_t psbd_l pd_l5 " bgcolor="#03acdc">
+    	<strong style="color: rgb(255, 255, 255);">Track V</strong>
+    </td>
+</tr>
+<tr>
+	<td height="36" class="bd_t">13:00~13:40</td>
+	<td align="center" class="pd_10 bd_t">
+    	<p class="ps_txt">Monasca를 이용한<br>Cloud 모니터링</p>
+    	<p class="ps_txt4">변상욱 부장 / HP</p>
+    </td>
+    <td align="center" class="bd_l pd_10 bd_t">
+    	<p class="ps_txt">아리스타 OpenStack<br>연동 및 CloudVison<br>솔루션 소개</p>
+    	<p class="ps_txt4">조윤호 과장 /<br>아리스타 네트웍스</p>
+    </td>
+    <td align="center" class="bd_l pd_10 bd_t">
+    	<p class="ps_txt">오픈스택 환경에서<br>공유 파일 시스템 구현하기:<br>마닐라(Manila) 프로젝트</p>
+    	<p class="ps_txt4">서상원 차장 / NetApp</p>
+    </td>
+    <td align="center" class="bd_l pd_10 bd_t">
+    	<p class="ps_txt">OpenStack과<br>Open Platform (cloudfoundry/PaaS)<br>구성 자동화</p>
+    	<p class="ps_txt4">김기현 대표 / 클라우드포유</p>
+    </td>
+    <td align="center" class="bd_l pd_10 bd_t" rowspan="7">
+    	<p class="ps_txt">오픈스택 업스트림<br>트레이닝<br>(30명, 160분)</p>
+        <p class="ps_txt4" style="padding: 6px 0px;">진행자 : 최영락, 안승규<br>강성진</p>
+    	<p class="ps_txt">* 인원수 제한<br>* 개인노트북 지참</p>    
+    </td>
+</tr>
+<tr>
+    <td class="bd_t bg_f6">13:40~13:50</td>
+    <td height="36" align="center" class="bd_t bg_f6" colspan="4"><strong>Break</strong></td>
+</tr>
+<tr>
+	<td height="36" class="bd_t">13:50~14:30</td>
+	<td align="center" class="pd_10 bd_t">
+    	<p class="ps_txt">All flash CEPH<br>구성 및 최적화</p>
+    	<p class="ps_txt4">엄주관 / SK텔레콤</p>
+    </td>
+    <td align="center" class="bd_l pd_10 bd_t">
+    	<p class="ps_txt">How to speed up Openstack Network<br>with PRISM</p>    	
+        <p class="ps_txt4">공석환 팀장 / Kulcloud</p>
+    </td>
+    <td align="center" class="bd_l pd_10 bd_t">
+    	<p class="ps_txt">OpenStack on 64-bit<br>ARM with X-Gene</p>
+    	<p class="ps_txt4">Kumar Sankaran / AppliedMicro</p>
+    </td>
+    <td align="center" class="bd_l pd_10 bd_t">
+    	<p class="ps_txt">OpenStack With Kubernetes</p>
+    	<p class="ps_txt4">박재권 / 락플레이스</p>
+    </td>
+</tr>
+<tr>
+    <td class="bd_t bg_f6">14:30~14:40</td>
+    <td height="36" align="center" class="bd_t bg_f6" colspan="4"><strong>Break</strong></td>
+</tr>
+<tr>
+	<td height="36" class="bd_t">14:40~15:20</td>
+	<td align="center" class="pd_10 bd_t">    	
+        <p class="ps_txt">Red Hat Enterprise Linux OpenStack Platform</p>    	
+        <p class="ps_txt4">최원영 이사/ Red Hat</p> 
+    </td>
+    <td align="center" class="bd_l pd_10 bd_t">
+    	<p class="ps_txt">가상화 네트워크와<br>클라우드간 협업</p>    	
+        <p class="ps_txt4">이호석 부장 / VMware</p>   
+    </td>
+    <td align="center" class="bd_l pd_10 bd_t">    	
+<p class="ps_txt">Powered by OpenStack, Power to do more with Future-Ready Enterprise </p>     	
+<p class="ps_txt4">윤선욱 부장/Dell</p>
+    </td>
+    <td align="center" class="bd_l pd_10 bd_t">
+    	<p class="ps_txt">해외 사례로 보는OpenStack Billing System</p>    	
+        <p class="ps_txt4">장현정 책임연구원 / ASD Korea</p> 
+    </td>
+</tr>
+<tr>
+    <td class="bd_t bg_f6">15:20~15:30</td>
+    <td height="36" align="center" class="bd_t bg_f6" colspan="4"><strong>Break</strong></td>
+</tr>
+<tr>
+	<td height="36" class="bd_t">15:30~16:10</td>
+	<td align="center" class="pd_10 bd_t">
+    	<p class="ps_txt">Mellanox CloudX– Acceleration for CloudPerformance and EfficientVirtual Networking</p>
+        <p class="ps_txt4">정연구 이사 / Mellanox Technologies</p>
+    </td>
+    <td align="center" class="bd_l pd_10 bd_t">
+   		<p class="ps_txt">다음 1초에 당신이<br>봐야 할것</p>
+   		<p class="ps_txt4">황인욱 수석연구원 / 아토리서치</p>
+    </td>
+    <td align="center" class="bd_l pd_10 bd_t">
+    	<p class="ps_txt">머신러닝과 오픈스택</p>
+        <p class="ps_txt4">안명호 대표 / MHR Inc</p>
+    </td>
+    <td align="center" class="bd_l pd_10 bd_t">
+    	<p class="ps_txt">오픈스택을 공부합시다<br> - 커뮤니티 스터디 분과 소개</p>
+        <p class="ps_txt4">2015년 오픈스택<br>스터디 참가자</p>
+    </td>
+    </tr>
+<tr>
+    <td class="bd_t bg_f6">16:10~16:20</td>
+    <td height="36" align="center" class="bd_t bg_f6" colspan="5"><strong>Break</strong></td>
+</tr>
+<tr>
+	<td height="36" class="bd_t">16:20~17:00</td>
+	<td align="center" class="pd_10 bd_t">
+    	<p class="ps_txt">생존형 Hybrid cloud<br>Platform 개발기</p>
+    	<p class="ps_txt4">송지형 / SK Planet</p>
+    </td>
+    <td align="center" class="bd_l pd_10 bd_t">
+    	<p class="ps_txt">데이터센터에 부는<br>오픈 소스 하드웨어 바람</p>
+    	<p class="ps_txt4">유명환 소장 / 엑세스</p>
+    </td>
+    <td align="center" class="bd_l pd_10 bd_t">
+    	<p class="ps_txt">방송제작용 UHD<br>스토리지 구성 및 테스트</p>
+    	<p class="ps_txt4">임태현 / KBS</p>
+    </td>    
+    <td align="center" class="bd_l pd_10 bd_t">
+   		<p class="ps_txt">Deep Dive: k8s with docker</p>
+    	<p class="ps_txt4">안승규 부대표 /<br>오픈스택한국커뮤니티</p>
+    </td>
+    <td align="center" class="bd_l pd_10 bd_t">&nbsp;</td>
+</tr>
+<tr>
+    <td class="bd_t bg_f6">17:00~17:10</td>
+    <td height="36" align="center" class="bd_t bg_f6" colspan="5"><strong>Break</strong></td>
+</tr>
+<tr>
+	<td height="36" class="bd_t">17:10~17:50</td>
+	<td align="center" class="pd_10 bd_t">
+    	<p class="ps_txt">카카오는 오픈스택<br>기반으로  어떻게<br> 5000 VM을 운영하고 있을까?</p>
+    	<p class="ps_txt4">하현 / 카카오</p>
+    </td>
+    <td align="center" class="bd_l pd_10 bd_t">
+    	<p class="ps_txt">OpenStack기반 소프트웨어정의 스토리지 기술</p>
+    	<p class="ps_txt4">조만석 / OSS개발자센터</p>
+    </td>
+    <td align="center" class="bd_l pd_10 bd_t">
+        <p class="ps_txt">VDI on OpenStack with LeoStream Connection Broker</p>
+        <p class="ps_txt4">이보성 / GotoCloud</p>
+    </td>    
+    <td align="center" class="bd_l pd_10 bd_t">
+    	<p class="ps_txt">OCP 하드웨어 및 소프트웨어 삽질기</p>
+        <p class="ps_txt4">서준호 / SK텔레콤</p>
+    </td>
+    <td align="center" class="bd_l pd_10 bd_t">&nbsp;</td>
+</tr>
+<tr>
+    <td class="bd_t bd_b bg_f6">17:50~18:00</td>
+    <td height="36" align="center" class="bd_t bd_b bg_f6" colspan="5"><strong>Lucky draw &amp; Closing</strong></td>
+</tr>
+
+</tbody>
+</table>
+
+<table width="880" align="center" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr><td height="30" colspan="2">&nbsp;</td></tr>
+<tr>
+    <td height="40" class="bd_t" bgcolor="#03acdc" colspan="2">
+        <strong style="color: rgb(255, 255, 255); font-size: 14px;">&nbsp;&nbsp;TrackV : 오픈스택 업스트림 트레이닝</strong>
+    </td>
+</tr>
+<tr>
+	<td width="110" align="center" class="bd_t ps_txt">행사 개요</td>
+    <td class="bd_t bd_l ps_txt" style="padding: 20px;">
+    <p style="padding-bottom: 10px;">OpenStack Summit에서 이틀동안 개최되는 Upstream Training을 한글로 160분간, 요약 버전으로 개최합니다.</p>
+    <p style="padding-bottom: 10px;">
+	Upstream Training은 OpenStack의 Upstream 오픈소스 개발자가 되기위한 실천적인 교육입니다. Upstream (업스트림)이란 최신의<br> 
+    소스 코드를 의미합니다. 실제 (문서) 코드 Patch를 등록하고 업스트림에 반영되는 과정을 학습하면서, 동시에 오픈 소스 커뮤니티에서의<br>
+    개발로 이어지는 과정을 이해할 수 있습니다.</p>
+    <p style="padding-bottom: 10px;">
+    OpenStack 관심이 점차 증가하고 있지만, 국내 OpenStack 오픈 소스 개발자는 많지 않은 상황입니다. 앞으로 한국 OpenStack 및<br>
+    클라우드 분야에서 경쟁력을 유지하기 위해서는 오픈 소스 개발자가 많아져야 할 것입니다. 이번 Upstream Training은 이러한 문제의<br>
+    한 해결 방법이 될 것으로 예상합니다.</p>
+	교육 과정은 Upstream Training 중 중요 내용을 위주로, 한국어 번역된 슬라이드로 진행합니다.
+    </td>
+</tr>
+<tr>
+	<td width="110" align="center" class="bd_t ps_txt">일시</td>
+    <td class="bd_t bd_l ps_txt" style="padding: 20px;">
+    2016년 2월 18일 (목), 13:00~16:10 (총 160분)<br>
+	행사 전후로, 온라인 (e.g., IRC, Mailing List, Slack, ...)을 포함한 지속적인 시간.
+    </td>
+</tr>
+<tr>
+	<td width="110" align="center" class="bd_t ps_txt">장소</td>
+    <td class="bd_t bd_l ps_txt" style="padding: 20px;">
+    잠실 롯데호텔 3층, Track V (루비&amp;제이드)&nbsp;&nbsp;&nbsp;
+    <a style="padding: 3px 4px; border-radius: 2px; color: rgb(255, 255, 255); font-size: 11px; background-color: rgb(0, 51, 102);" onclick="window.open('http://event.openstack.or.kr/2016/info_pop.html', '_blank', 'width=640px height=480px')" href="#">장소보기</a>
+    </td>
+</tr>
+<tr>
+	<td width="110" align="center" class="bd_t ps_txt">정원</td>
+    <td class="bd_t bd_l ps_txt" style="padding: 20px;">
+    30명 <span style="color: rgb(0, 102, 255);">사전등록 시 신청가능</span>&nbsp;&nbsp;&nbsp;
+    <a style="padding: 3px 4px; border-radius: 2px; color: rgb(255, 255, 255); font-size: 11px; background-color: rgb(0, 51, 102);" href="http://event.openstack.or.kr/register.html">사전등록하기</a>
+    <p style="color: rgb(0, 102, 255); padding-top: 5px;">★ 신청하신 분께는 별도 안내 예정</p>
+    </td>
+</tr>
+<tr>
+	<td width="110" align="center" class="bd_t ps_txt">참가비</td>
+    <td class="bd_t bd_l ps_txt" style="padding: 20px;">
+    OpenStack Days Korea 2016에 참가 신청한 경우, 무료
+    </td>
+</tr>
+<tr>
+	<td width="110" align="center" class="bd_t ps_txt">참가 대상</td>
+    <td class="bd_t bd_l ps_txt" style="padding: 20px;">
+    ● 오픈 소스 소프트웨어 개발에 관심이 있는 분<br>
+    ● OpenStack 업스트림 컨트리뷰션 생태계를 이해하고 싶은 자<br>
+    ● OpenStack을 회사 내에 업스트림 코드와 함께 도입하고자 하는 분
+    </td>
+</tr>
+<tr>
+	<td width="110" align="center" class="bd_t ps_txt">기술 요구 사항</td>
+    <td class="bd_t bd_l ps_txt" style="padding: 20px;">
+    ● OpenStack에 대한 기본 배경 지식이 있어야 합니다.<br>
+    ● Linux, SSH 등의 기본 조작을 할 수 있다고 가정하고 있습니다.<br>
+    ● Python 지식을 권장하나, 단순 (문서) 버그 수정을 통한 Upstream Training 행사 참여 또한 가능합니다.
+    </td>
+</tr>
+<tr>
+	<td width="110" align="center" class="bd_t ps_txt">준비물</td>
+    <td class="bd_t bd_l ps_txt" style="padding: 20px;">    
+    실습을 위해 Wifi 접속이 가능한 노트북이 필요합니다.<br>
+    <span style="color: rgb(102, 102, 102);">(권장: Ubuntu 14.04 + 4GB RAM VM이 동작 가능한 노트북 - DevStack)</span>
+    </td>
+</tr>
+<tr>
+	<td width="110" align="center" class="bd_t ps_txt">스태프</td>
+    <td class="bd_t bd_l ps_txt" style="padding: 20px;">    
+    최영락 (준비, 교육, 조교)<br>
+    안승규 (준비, 교육, 조교)<br>    
+    강성진 (준비, 교육, 조교)<br>
+    김남곤, 신준식, 한정수 (GIST - Tokyo Upstream Training 참석, 행사 조교 및 멘토링)
+    </td>
+</tr>
+
+<tr>
+	<td width="110" align="center" class="bd_t bd_b ps_txt">참고</td>
+    <td class="bd_t bd_b bd_l ps_txt" style="padding: 20px;">
+    <p style="padding-bottom: 10px;">
+    <a style="text-decoration: underline;" href="http://docs.openstack.org/upstream-training/" target="_blank">
+    1. OpenStack Upstream Training 공식 문서 (docs.openstack.org/upstream-training)</a></p>
+    <a style="text-decoration: underline;" href="http://www.slideshare.net/ianychoi/tokyo-upstream-training-openstack-2015" target="_blank">
+    2. OpenStack Upstream Training 참여 후기 (before Tokyo Summit) by Ian Y. Choi </a>
+    </td>
+</tr>
+</tbody>
+</table>
+ 	          <!-- 프로그램 리스트 끝-->
+              </div>
+		      <div id="ps_info">※ 상기 일정은 사정에 따라 변경될 수 있습니다.</div>
+	        </div>
+		    <!-- 버튼 -->
+	    <div id="btn3"><a href="register.html?tr=53"><img src="http://common.meganews.co.kr/images/impact/btn_regist.jpg" alt="사전등록" /></a></div>
+
+	    <!-- 탑 앵커 -->
+		  <div id="top_anchor2">
+		    <p class="top_bt2"><a href="#maincontents"><img src="http://common.meganews.co.kr/images/top_bt.gif" /></a></p>
+	    </div>
+      </div>
+		<!--콘텐츠-->
+		</div>
+		
+	</div>
+ 
+</div>   
+<!-- google analytics start -->
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58223702-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<!--// google analytics start -->
+</body>
+</html>
+<? include_once "_hit.php"; ?>
