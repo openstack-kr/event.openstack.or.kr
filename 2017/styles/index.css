@@ -1,0 +1,108 @@
+div.legalToc {
+  padding: 0 20px 14px;
+  line-height: 20px;
+  font-size: 12px;
+  font-weight: normal;
+  color: #333333;
+  border-bottom: 1px solid #d2d2d2;
+  margin-bottom: 19px;
+}
+div.legalToc p {
+  margin: 0;
+}
+div.legalToc p a {
+  font-weight: bold;
+  color: #4195f5;
+  text-decoration: none;
+}
+div.legalToc p a:hover {
+  _text-decoration: underline;
+}
+div.legalToc p a[href]:hover {
+  text-decoration: underline;
+}
+
+div.legalBody {
+  padding: 0 20px;
+  color: #333333;
+  line-height: 20px;
+  font-size: 12px;
+  text-align: left;
+}
+div.legalBody h1 {
+  font-size: 12px;
+  margin: 1em 0 0;
+  font-weight: bold;
+  color: #4195f5;
+}
+div.legalBody h2 {
+  font-size: 12px;
+  margin: 1em 0 0;
+  font-weight: bold;
+}
+div.legalBody h3 {
+  font-size: 12px;
+  margin: 1em 0 0;
+}
+div.legalBody h4 {
+  font-size: 12px;
+  font-size: 12px;
+  margin: 1em 0 0;
+  margin: 1em 0 0;
+}
+div.legalBody h5 {
+  font-size: 12px;
+  margin: 1em 0 0;
+  font-weight: bold;
+  color: #4195f5;
+}
+div.legalBody h6 {
+  font-size: 12px;
+  margin: 1em 0 0;
+}
+div.legalBody strong {
+  color: #4195f5;
+}
+div.legalBody p {
+  margin: 0;
+  text-align: left;
+}
+div.legalBody p.legalItem {
+  padding-left: 15px;
+  text-indent: -15px;
+}
+div.legalBody p.legalItem.narrow {
+  padding-left: 10px;
+  text-indent: -10px;
+}
+div.legalBody p.legalItem.wide {
+  padding-left: 20px;
+  text-indent: -20px;
+}
+div.legalBody p.legalItem.extraWide {
+  padding-left: 32px;
+  text-indent: -32px;
+}
+div.legalBody dl {
+  margin: 10px 0 0 20px;
+  padding-left: 15px;
+  text-indent: -15px;
+}
+div.legalBody dl dt {
+  padding-top: 5px;
+}
+div.legalBody dl dd {
+  padding-left: 5px;
+  text-indent: -5px;
+}
+div.legalBody .clause .clause {
+  margin-left: 20px;
+}
+div.legalBody .clause p {
+  margin-left: 20px;
+}
+div.legalBody .supplementary {
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=index.css.map */
