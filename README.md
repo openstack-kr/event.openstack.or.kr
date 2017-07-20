@@ -1,2 +1,2 @@
 # event.openstack.or.kr
-Homepage data for event.openstack.or.kr
+Blob data (for large files)
