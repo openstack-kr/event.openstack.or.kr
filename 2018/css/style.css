@@ -31,7 +31,7 @@ body {
 #header .lnb {
 	position: absolute;
 	top:12px;
-	right:30px;
+	right:100px;
 }
 #header .lnb ul li {
 	float:left;
@@ -81,6 +81,7 @@ body {
 #content .tit_area .main_txt_sub {
 	display: block;
 	font-size: 30px;
+    font-weight: bold;
 	color: #fff;
 	padding-bottom:5px;
 	text-align: center;
@@ -92,8 +93,12 @@ body {
 	color: #b7b7b7;
 	text-align: center;
 	border-top: 1px solid #6b6e70;
-	padding:15px 0 15px 0;
+	padding:30px 0 30px 0;
 	margin: 0 auto;
+}
+#content .tit_area .sub_txt a {
+    font-weight: bold;
+	color: #b7b7b7;
 }
 #content .timer_area {
 	width:800px;
