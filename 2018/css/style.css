@@ -67,19 +67,27 @@ body {
  width: 100%;
 }
 #content .tit_area {
-	width:697px;
+	width:800px;
 	margin: 0 auto;
 }
 #content .tit_area .main_txt {
 	display: block;
-	font-size: 55px;
+	font-size: 50px;
 	color: #fff;
-	padding-bottom:20px;
+	padding-bottom:5px;
+	text-align: center;
+	letter-spacing: -1px;
+}
+#content .tit_area .main_txt_sub {
+	display: block;
+	font-size: 30px;
+	color: #fff;
+	padding-bottom:5px;
 	text-align: center;
 	letter-spacing: -1px;
 }
 #content .tit_area .sub_txt {
-	width: 622px;
+	width: 800px;
 	font-size:18px;
 	color: #b7b7b7;
 	text-align: center;
@@ -125,7 +133,7 @@ body {
 }
 #content .sub_tit {
 	width:100%;
-	padding-bottom:35px;
+	padding-bottom:20px;
 }
 #content .sub_tit p {
 	font-size: 19px;
