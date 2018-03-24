@@ -67,7 +67,7 @@ body {
  width: 100%;
 }
 #content .tit_area {
-	width:800px;
+	width: 800px;
 	margin: 0 auto;
 }
 #content .tit_area .main_txt {
@@ -147,17 +147,18 @@ body {
 }
 #content .link_btn {
 	width:100%;
-	position: relative; 
+	position: relative;
 }
 #content .link_btn ul {
 	position: absolute;
 	left:50%;
-	margin-left:-350px;
+	/* width: 750px; */
+	transform: translateX(-50%);
 }
 
 #content .link_btn ul li {
 	float:left;
-	width:151px;
+	width: 155px;
 	height:33px;
 	border: 1px solid #b8b7b5;
 	background-color: #1d1917;
@@ -179,6 +180,6 @@ body {
 #content .link_btn ul li a img {
 	margin-left:15px;
 }
-#content .link_btn ul .btn3 {
-	width:240px;
+#content .link_btn ul .btn_wide {
+	width:180px;
 }
