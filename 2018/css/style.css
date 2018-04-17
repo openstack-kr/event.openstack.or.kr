@@ -152,13 +152,13 @@ body {
 #content .link_btn ul {
 	position: absolute;
 	left:50%;
-	/* width: 750px; */
+	width: 720px;
 	transform: translateX(-50%);
 }
 
 #content .link_btn ul li {
 	float:left;
-	width: 155px;
+	width: 151px;
 	height:33px;
 	border: 1px solid #b8b7b5;
 	background-color: #1d1917;
