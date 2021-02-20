@@ -1,0 +1,108 @@
+.modal-page-privacy * {
+    word-break: keep-all;
+
+}
+.modal-page-privacy {
+    display:inline-block;
+    width:1200px;
+    padding:64px 15px 80px 15px;
+    position:relative;
+    border:1px solid #efeff4;
+    background-color:#fff;
+    border-radius:5px;
+    vertical-align:middle;
+    text-align:left;
+    font-size:16px;
+    color:#888;
+    line-height:24px;
+}
+
+.modal-page-privacy .btn-modal-close {
+    display:block;
+    position:absolute;
+    right:16px;
+    top:16px;
+    width:24px;
+    height:24px;
+    background:url(../images/modal/icon_modal_close.png) no-repeat 0 0;
+}
+.modal-page-privacy .txt-title {
+    line-height:42px;
+    font-size:28px;
+    color:#2a2c2e;
+    font-weight:bold;
+    letter-spacing:-0.4px;
+}
+
+
+.modal-page-privacy .txt-title {
+    display:block;
+    font-size:22px;
+    color:#212639;
+    line-height:30px;
+    padding-bottom:10px;
+}
+.modal-page-privacy .txt-detail {
+    display:block;
+    padding:0 0 30px 30px;
+    font-size:16px;
+    color:#888;
+    line-height:24px;
+}
+.modal-page-privacy .txt-detail:last-of-type {
+    padding-bottom:0;
+}
+.modal-page-privacy .txt-list-detail {
+    padding:0 0 0 0;
+}
+.modal-page-privacy .txt-list-detail li {
+    font-size:16px;
+    color:#888;
+    line-height:24px;
+
+}
+.modal-page-privacy .txt-dt-detail {
+    padding:0 0 0 0;
+}
+.modal-page-privacy .txt-dt-detail dt {
+    font-size:16px;
+    color:#888;
+    line-height:24px;
+    font-weight:normal;
+
+}
+
+.modal-page-privacy .txt-dt-detail dd {
+    font-size:16px;
+    color:#888;
+    line-height:24px;
+
+}
+.modal-page-privacy .txt-detail2 {
+   padding:0 0 30px 0;
+}
+.modal-page-privacy ol.list-detail li {
+    font-size:16px;
+    color:#888;
+    line-height:24px;
+
+}
+.modal-page-privacy ul.sub-list li {
+    padding-left:20px;
+    font-size:16px;
+    color:#888;
+    line-height:24px;
+
+}
+
+.modal-page-privacy {
+
+}
+@media only screen and (max-width: 1139px){
+    .modal-page-privacy {
+        width:100%;
+    }
+    .container-modal .modal-inner {
+        padding:0 15px;
+    }
+}

@@ -1,0 +1,1088 @@
+/* Eventrox - Digital Conference HTML Template */
+
+@media only screen and (max-width: 1139px){
+	.about-section .image-column .image:before {
+		right:0;
+		width:100%;
+		height:100%;
+	}
+	.buy-ticket .form-column .inner-column,
+	.about-section .content-column .inner-column{
+		padding-right: 0;
+	}	
+
+	.event-info-section .info-column .inner-column,
+	.useful-links{
+		padding-left: 0;
+	}
+
+	.features-section-two .title-block .inner-box{
+		background-color: transparent;
+		padding: 0;
+	}
+
+	.banner-conference .icon-circle-3{
+		left: -200px;
+		top: -200px;
+	}
+
+	.about-section-two .content-column .inner-column{
+		padding-top: 0;
+	}
+
+	.sidebar-page-container .sidebar.padding-left{
+		padding-left: 0;
+	}
+
+	.instagram-widget .outer .image{
+		width: 20%;
+	}
+
+	.main-menu .navigation > li{
+		margin-left: 35px;
+	}
+}
+
+@media only screen and (min-width: 768px){
+	.main-menu .navigation > li > ul,
+	.main-menu .navigation > li > .mega-menu,
+	.main-menu .navigation > li > ul > li > ul{
+		display:block !important;
+		visibility:hidden;
+		opacity:0;
+	}
+}
+
+@media only screen and (max-width: 1023px){
+	
+	.main-header,
+	.main-header.fixed-header,
+	.main-header .main-box{
+		/* position: relative !important; */
+		background-color: #1e1f36;
+	}
+
+	.main-header .main-box{
+		padding: 10px 0;
+		background-color: #1e1f36;
+	}
+
+	.header-style-two,
+	.header-style-two .main-box{
+		background-color: #ffffff;
+		box-shadow: 0 5px 10px rgba(0,0,0,0.04);
+		padding: 0;
+	}
+	.header-style-two .outer-box {
+		padding:0;
+	}
+	.header-style-two .outer-box, 
+	.header-style-two .logo-box, 
+	.header-style-two .main-menu .navigation > li{
+		padding: 10px 0;
+	}
+	.header-style-two .outer-box {
+		padding:0;
+	}
+	.header-style-two .outer-box .theme-btn{
+		background-color: #e1137b;
+		color: #ffffff;
+	}
+
+	.header-style-two .nav-outer{
+		float: right;
+	}
+
+	.schedule-tabs .tab-btn:after,
+	.banner-meetup .countdown .counter-column:before,
+	.about-section .image-column .image-1:before,
+	.main-header .outer-box{
+		display: block;
+	}
+
+	.banner-carousel .swiper-slide{
+		padding: 200px 0;
+	}
+
+	.banner-carousel .content-box h2{
+		font-size: 50px;
+		line-height: 1.2em;
+		margin-bottom: 20px;
+	}
+
+	.banner-carousel .slide-item{
+		padding: 150px 0;
+	}
+
+	.coming-soon-section .outer-box{
+		margin: 0 -15px;
+		padding: 30px;
+	}
+
+	.coming-soon-section .time-countdown .counter-column,
+	.coming-soon-section-two .time-countdown .counter-column{
+		margin: 0 20px;
+	}
+
+	.coming-soon-section .time-countdown .counter-column:before{
+		right: -25px;
+	}
+
+	.header-span,
+	.schedule-block .inner:before,
+	.about-section .icon-dots{
+		display: none;
+	}
+
+	.about-section .image-column .image-box{
+		padding-left: 0;
+		text-align: center;
+	}
+
+	.clients-section{
+		text-align: center;
+	}
+
+	.about-section .image-column .image{
+		max-width: 500px;
+		display: inline-block;
+	}
+
+	.register-form button,
+	.schedule-block .inner-box{
+		width: 100%;
+	}
+
+	.schedule-block.even .inner-box .inner{
+		margin-right: 140px;
+	}
+	.schedule-block .inner-box .inner{
+		margin-left: 140px;
+	}
+
+	.buy-ticket .content-column,
+	.why-choose-us .content-column{
+		order: 0;
+	}
+
+	.banner-conference .content-box h2{
+		font-size: 42px;
+	}
+
+	.banner-conference .images-outer{
+		width: 40%;
+	}
+
+	.banner-conference .time-countdown .counter-column{
+		margin-right: 20px;
+	}
+
+	.banner-conference .time-countdown .counter-column:last-child{
+		margin-right: 0;
+	}
+
+	.banner-conference .time-countdown .counter-column:before{
+		right: -15px;
+	}
+
+	.banner-conference{
+		padding: 200px 0 100px;
+	}
+
+	.banner-conference .icon-dots{
+		bottom: 50px;
+	}
+
+	.subscribe-section .content-box{
+		text-align: center;
+	}
+
+	.subscribe-section .content-box .sec-title{
+		padding-left: 0;
+	}
+
+	.about-section-two .image-column .image-box{
+		padding-right: 0;
+	}
+
+	.subscribe-section .content-box .sec-title .icon{
+		position: relative;
+		display: inline-block;
+		margin-bottom: 20px;
+		left: 0;
+		top: 0;
+	}
+
+	.banner-meetup h2{
+		font-size: 60px;
+	}
+
+	.event-info-section .info-column,
+	.about-section-two .content-column{
+		order: 0;
+	}
+
+	.event-info-section .info-column{
+		margin-bottom: 50px;
+	}
+
+	.buy-ticket .anim-icons,
+	.error-section .icon-line-1,
+	.features-section-two .twist-line-3,
+	.subscribe-form .sec-title .text br,
+	.about-section-two .icon-circle-blue,
+	.about-section-two .icon-dots,
+	.banner-conference-two .images-outer .speaker-img,
+	.coming-soon-section-two .time-countdown .counter-column:before{
+		display: none;
+	}
+	
+	.banner-conference-two{
+		padding-top:140px;
+		padding-bottom:280px;
+	}
+
+	.fluid-section-one .content-column h3{
+		font-size: 34px;
+	}
+
+	.app-section,
+	.speaker-detail .info-column .inner-column,
+	.app-section .image-column .image-box{
+		text-align: center;
+	}
+
+	.event-info-section .map-column{
+		position: relative;
+		height: 400px;
+	}
+
+	.app-section .content-column .inner-column{
+		padding-top: 0;
+	}
+
+	.contact-page-section .contact-column{
+		order: 0;
+	}
+
+	.subscribe-section .content-box .sec-title{
+		text-align: center;
+	}
+	
+	.header-top-two .top-left .links li a{
+		font-size:14px;
+	}
+	
+	.header-top-two .top-left,
+	.header-top-two .top-right{
+		width:100%;
+	}
+	
+	.header-top-two .top-right .social-icons li{
+		margin-left:0px;
+		margin-right:15px;
+	}
+	
+	.main-header.header-style-two.alternate-two .main-box,
+	.main-header.header-style-two.alternate-two{
+		background-color:#000000;
+	}
+	
+}
+
+@media only screen and (max-width: 767px){
+	.main-header .nav-outer .main-menu{
+		display: none !important;
+	}
+
+	.main-header .header-lower .nav-outer{
+		padding-right: 0;
+	}
+
+	.main-header .outer-box{
+		margin: 9px 10px 0 0;
+	}
+
+	.nav-outer .mobile-nav-toggler{
+		display: block;
+		margin: 10px 0;
+	}
+
+	.page-title{
+		padding: 80px 0;
+	}
+
+	.page-title h1{
+		font-size: 40px;
+		margin-bottom: 10px;
+	}
+
+	.sec-title{
+		margin-bottom: 40px;
+	}
+
+	.sec-title h2{
+		font-size: 42px;
+	}
+	
+	.banner-carousel .content-box h2{
+		font-size: 40px;
+		line-height: 1.2em;
+	}
+
+	.banner-carousel .swiper-slide{
+		padding: 160px 0;
+	}
+
+	.coming-soon-section .time-countdown .counter-column,
+	.coming-soon-section-two .time-countdown .counter-column{
+		margin: 0;
+		font-size: 14px;
+	}
+
+	.coming-soon-section .time-countdown .counter-column .count,
+	.coming-soon-section-two .time-countdown .counter-column .count{
+		font-size: 40px;
+	}
+
+	.coming-soon-section .time-countdown .counter-column:before{
+		font-size: 40px;
+		right: -6px;
+	}
+
+	.clients-section,
+	.event-info-section{
+		padding: 110px 0 0;
+	}
+
+	.map-section{
+		padding-bottom: 70px;
+	}
+
+	.app-section,
+	.faq-form-section,
+	.error-section,
+	.news-section.alternate,
+	.fluid-section-one .content-column .inner-column,
+	.newsletter-section,
+	.testimonial-section,
+	.register-section{
+		padding: 70px 0;
+	}
+
+	.why-choose-us,
+	.contact-page-section,
+	.sidebar-page-container,
+	.fun-fact-section,
+	.speaker-detail,
+	.about-section{
+		padding: 70px 0 20px;
+	}
+
+	.faq-section,
+	.pricing-section-three,
+	.speakers-section-three,
+	.about-section-two,
+	.pricing-section-two,
+	.speakers-section-two,
+	.features-section{
+		padding: 70px 0 30px;
+	}
+	
+	.event-detail,
+	.buy-ticket,
+	.features-section-three,
+	.news-section,
+	.pricing-section,
+	.schedule-section,
+	.gallery-section,
+	.speakers-section{
+		padding: 70px 0 40px;
+	}
+
+	.features-section-two{
+		padding: 70px 0 50px;
+	}
+
+	.feature-block-two .inner-box{
+		padding: 40px 20px;
+		text-align: center;
+	}
+
+	.feature-block-two .icon-box{
+		position: relative;
+		display: inline-block;
+		left: 0;
+		top: 0;
+		margin-bottom: 20px;
+	}
+
+	.video-section .content-box h2{
+		font-size: 38px;
+	}
+
+	.video-section{
+		padding: 70px 0 100px;
+	}
+
+	.main-footer .widgets-section{
+		padding: 100px 0 30px;
+	}
+
+	.register-section .title-column{
+		width: 100%;
+	}
+
+	.header-style-two .nav-outer{
+		padding-top: 10px;
+	}
+
+	.banner-conference{
+		padding-top: 150px;
+	}
+
+	.features-section-two .twist-line-2,
+	.call-to-action .content-box h2 br,
+	.banner-conference .layer-outer,
+	.banner-conference .images-outer{
+		display: none;
+	}
+
+	.banner-conference .content-box{
+		text-align: center;
+	}
+
+	.banner-conference .icon-dots{
+		bottom: 0;
+		left: 80%;
+	}
+
+	.subscribe-section .newsletter-form .form-group{
+		padding-right: 0;
+	}
+
+	.subscribe-section .newsletter-form .form-group .theme-btn{
+		position: relative;
+		display: block;
+		margin-top: 20px;
+		width: 100%;
+	}
+
+	.banner-meetup h2{
+		font-size: 50px;
+	}
+
+	.banner-meetup .countdown .counter-column{
+		width: 80px;
+		font-size: 14px;
+	}
+
+	.banner-meetup .btn-box{
+		margin-top: 10px;
+	}
+
+	.fluid-section-one .content-column,
+	.fluid-section-one .image-column{
+		position: relative;
+		width: 100%;
+		float: left;
+	}
+
+	.fluid-section-one .image-column .image-box{
+		display: block;
+	}
+
+	.event-info-section .map-column{
+		margin-bottom: 70px;
+	}
+
+	.subscribe-form .form-inner{
+		max-width: 100%;
+	}
+
+	.coming-soon .content .text br,
+	.error-section .anim-icons,
+	.newsletter-section .anim-icons,
+	.main-footer.style-three .anim-icons{
+		display: none;
+	}
+
+	.error-section .error-title{
+		font-size: 120px;
+	}
+
+	.clients-section{
+		text-align: center;
+	}
+	
+	.header-top .pull-right{
+		display:none;
+	}
+	
+	.header-top .top-left{
+		width:100%;
+		display:block;
+		text-align:center;
+	}
+	
+	.banner-section-two .outer-container .content h1{
+		font-size:58px;
+	}
+	
+	.banner-section-two .outer-container .content h2{
+		font-size:28px;
+	}
+	
+	.banner-section-two .outer-container .content h2 span{
+		font-size:24px;
+	}
+	
+	.coming-soon-section-two .outer-box{
+		padding-left:0px;
+		padding-right:0px;
+	}
+	
+	.coming-soon-section-two .outer-box{
+		margin-top:90px;
+	}
+	
+	.banner-section-two{
+		padding-bottom:150px;
+	}
+	
+	.header-top-two .top-left{
+		display:none;
+	}
+	
+	.header-top-two .top-right{
+		text-align:center;
+	}
+	
+	.header-top-two .top-right .cart-box,
+	.header-top-two .top-right .social-icons{
+		display:inline-block;
+		float:none;
+	}
+	
+	.banner-conference-two{
+		padding-bottom:120px;
+	}
+	
+}
+
+
+@media only screen and (max-width: 599px){
+
+	.page-title h1,
+	.banner-meetup h2,
+	.banner-conference .content-box h2,
+	.error-section h4,
+	.event-info-section .info-column .sec-title h2,
+	.about-section .content-column .sec-title h2,
+	.sec-title h2{
+		font-size: 34px;
+		line-height: 1.2em;
+	}
+
+	.banner-conference-two .content-box h2{
+		font-size:40px;
+	}
+	
+	.banner-conference-two .time-countdown .counter-column{
+		margin-bottom:60px;
+	}
+	
+	.call-to-action .content-box h2,
+	.about-section-two .content-column .sec-title h2,
+	.fluid-section-one .content-column h3,
+	.video-section .content-box h2,
+	.banner-carousel .content-box h2{
+		font-size: 30px;
+	}
+
+	.blog-single h2,
+	.event-detail .content-box h2,
+	.banner-carousel .content-box .title,
+	.register-section .title-column h2{
+		font-size: 24px;
+	}
+
+	.blog-sidebar .news-block h4{
+		font-size: 22px;
+		line-height: 1.2em;
+	}
+
+	.coming-soon h1{
+		font-size: 50px;
+	}
+
+	.banner-carousel .content-box .info-list{
+		margin-bottom: 10px;
+	}
+
+	.banner-carousel .content-box .info-list li{
+		margin-bottom: 10px;
+	}
+
+	.video-section .content-box h2 br,
+	.coming-soon .icon-line-1,
+	.banner-conference-two .time-countdown .counter-column:before,
+	.about-section-two .content-column .sec-title h2 br,
+	.event-info-section .info-column .sec-title h2 br,
+	.banner-carousel .content-box .info-list li:before{
+		display: none;
+	}
+
+	.page-title h1{
+		font-size: 40px;
+		margin-bottom: 10px;
+	}
+
+	.clients-section-three .sponsors-outer .image-box img{
+		max-width: 100%;
+		width: auto;
+	}
+
+	.schedule-block.even .inner-box .inner,
+	.schedule-block .inner-box .inner {
+	    margin: 0;
+	}
+
+	.schedule-block .date{
+		position: relative;
+		display: inline-block;
+		margin-bottom: 15px;
+		left: 0;
+		top: 0;
+		padding: 0;
+		border: 0;
+		box-shadow: none;
+		height: auto;
+		width: auto;
+	}
+
+	.schedule-block.even .date{
+		right: 0;
+	}
+
+	.coming-soon-section .outer-box{
+		margin: 0 -15px;
+		padding: 30px 15px;
+	}
+
+	.coming-soon-section .time-countdown .counter-column,
+	.coming-soon-section-two .time-countdown .counter-column{
+		margin: 0 10px;
+		width: auto;
+	}
+
+	.coming-soon-section .time-countdown .counter-column .count,
+	.coming-soon-section-two .time-countdown .counter-column .count{
+		font-size: 30px;
+	}
+
+	.coming-soon-section .time-countdown .counter-column:before{
+		font-size: 30px;
+		right: -15px;
+		top: 0px;
+	}
+
+	.event-info-tabs .tab-btn{
+		margin-right: 0;
+	}
+
+	.schedule-section.style-two .schedule-block .inner-box .inner{
+		text-align: center;
+		padding: 30px 20px;
+	}
+
+	.schedule-section.style-two .schedule-block .speaker-info .thumb{
+		position: relative;
+		display: inline-block;
+		left: 0;
+		top: 0;
+		margin-bottom: 5px;
+	}
+
+	.schedule-section.style-two .schedule-block .speaker-info{
+		padding-left: 0;
+		text-align: center;
+	}
+
+	.banner-conference .time-countdown .counter-column{
+		margin-right: 0px;
+		width: 60px;
+		text-align: center;
+		font-size: 12px;
+	}
+
+	.banner-conference .time-countdown .counter-column:last-child{
+		margin-right: 0;
+	}
+
+	.banner-conference .time-countdown .counter-column .count{
+		font-size: 28px;
+	}
+
+	.banner-conference .time-countdown .counter-column:after{
+		width: 60px;
+	}
+
+	.banner-conference .time-countdown .counter-column:before{
+		right: -5px;
+		font-size: 28px;
+		display: none;
+	}
+
+	.schedule-section.style-three .schedule-block .inner-box .inner{
+		padding: 30px 20px;
+	}
+
+	.banner-meetup{
+		padding: 100px 0;
+	}
+
+	.schedule-tabs.style-three .tab-buttons li{
+		width: 50%;
+	}
+
+	.banner-meetup .address{
+		font-size: 18px;
+	}
+
+	.banner-meetup .countdown .counter-column{
+		width: 60px;
+		font-size: 10px;
+		margin: 0 0 20px;
+	}
+	
+	.banner-meetup .countdown .counter-column .count{
+		font-size: 24px;
+	}
+
+	.feature-block-three .inner-box{
+		padding: 40px 20px;
+		text-align: center;	
+	}
+
+	.feature-block-three .icon-box{
+		position: relative;
+		display: inline-block;
+		left: 0;
+		top: 0;
+		height: 80px;
+		width: 80px;
+		border-radius: 50%;
+		margin-bottom: 20px;
+	}
+
+	.feature-block-three .link-box{
+		position: relative;
+		display: inline-block;
+		left: 0;
+		top: 0;
+		margin: 15px 0 0;
+	}
+
+	.feature-block-three .icon-box:before{
+		transform: none;
+		border-radius: 50%;
+	}
+
+	.pricing-block-three .price{
+		font-size: 80px;
+	}
+
+	.blog-single .lower-content blockquote{
+		padding: 35px 20px;
+	}
+
+	.blog-single .lower-content blockquote .icon{
+		position: relative;
+		display: inline-block;
+		left: 0;
+		top: 0;
+		margin-bottom: 20px;
+	}
+
+	.post-share-options  .social-icon-three{
+		margin-top: 10px;
+	}
+
+	.buy-ticket .ticket-form{
+		padding: 30px 20px;
+	}
+
+	.instagram-widget .outer .image{
+		width: 33.333%;
+	}
+
+	.register-section .title-column .inner{
+		padding: 50px 20px 20px;
+	}
+
+	.comments-area .comment{
+		padding-left: 0;
+	}
+
+	.comments-area .comment-box .author-thumb{
+		position: relative;
+		left: 0;
+		top: 0;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	.banner-conference-two .content-box h2{
+		font-size:34px;
+	}
+}
+
+
+/*** 
+
+====================================================================
+		Right To Left Responsive
+====================================================================
+
+***/
+
+
+@media only screen and (max-width: 1139px){
+	.rtl .buy-ticket .form-column .inner-column,
+	.rtl .about-section .content-column .inner-column{
+		padding-left: 0;
+	}	
+
+	.rtl .event-info-section .info-column .inner-column,
+	.rtl .useful-links{
+		padding-right: 0;
+	}
+
+	.rtl .features-section-two .title-block .inner-box{
+		padding: 0;
+	}
+
+	.rtl .banner-conference .icon-circle-3{
+		left: auto;
+		right: -200px;
+	}
+
+	.rtl .sidebar-page-container .sidebar.padding-left{
+		padding-right: 0;
+	}
+
+	.rtl .instagram-widget .outer .image{
+		float: right;
+	}
+	
+	.rtl .main-menu .navigation > li{
+		margin-right: 35px;
+	}
+}
+
+@media only screen and (max-width: 1023px){
+	.rtl .header-style-two .nav-outer{
+		float: left;
+	}
+
+	.rtl .coming-soon-section .time-countdown .counter-column:before{
+		right: auto;
+		left: -25px;
+	}
+
+	.rtl .subscribe-section .content-box .sec-title,
+	.rtl .about-section .image-column .image-box{
+		padding-right: 0;
+		text-align: center;
+	}
+
+	.rtl .banner-conference .time-countdown .counter-column:before{
+		left: -15px;
+	}
+
+	.rtl .subscribe-section .content-box .sec-title{
+		padding-right: 0;
+	}
+
+	.rtl .about-section-two .image-column .image-box{
+		padding-left: 0;
+	}
+
+	.rtl .subscribe-section .content-box .sec-title .icon{
+		right: 0;
+		left: auto;
+	}
+}
+
+@media only screen and (max-width: 767px){
+
+	.rtl .main-header .header-lower .nav-outer{
+		padding-left: 0;
+	}
+
+	.rtl .main-header .outer-box{
+		right: 0;
+		left: auto;
+	}
+
+	.rtl .nav-outer .mobile-nav-toggler{
+		margin: 0;
+	}
+
+	.rtl .coming-soon-section .time-countdown .counter-column:before{
+		left: -6px;
+	}
+
+	.rtl .feature-block-two .icon-box{
+		left: auto;
+		right: 0;
+	}
+
+	.rtl .subscribe-section .newsletter-form .form-group{
+		padding-right: 0;
+	}
+
+	.rtl .feature-block-two .inner-box{
+		padding: 40px 20px;
+	}
+
+	.rtl .mobile-menu .navigation li.dropdown .dropdown-btn{
+		right: auto;
+		left: 0;
+	}
+
+	.rtl .mobile-menu .nav-logo{
+		width: 100%;
+		text-align: right;
+	}
+
+	.rtl .mobile-menu .close-btn{
+		right: auto;
+		left: 15px;
+	}
+
+	.rtl .about-section .icon-circle-blue{
+		display: none;
+	}
+
+	.rtl .features-section-two .title-block .inner-box{
+		text-align: center;
+	}
+
+}
+
+
+@media only screen and (max-width: 599px){
+
+	.rtl .schedule-block .date{
+		right: 0;
+		left: auto;
+	}
+
+	.rtl .schedule-block.even .date{
+		right: auto;
+		left: 0;
+	}
+
+	.rtl .coming-soon-section .outer-box{
+		padding: 30px 15px;
+	}
+
+	.rtl .coming-soon-section .time-countdown .counter-column{
+		margin: 0 10px;
+	}
+
+	.rtl .coming-soon-section .time-countdown .counter-column:before{
+		left: -15px;
+	}
+
+	.rtl .event-info-tabs .tab-btn{
+		margin-left: 0;
+	}
+
+	.rtl .schedule-section.style-two .schedule-block .inner-box .inner{
+		padding: 30px 20px;
+	}
+
+	.rtl .schedule-section.style-two .schedule-block .speaker-info .thumb{
+		left: auto;
+		right: 0;
+	}
+
+	.rtl .schedule-section.style-two .schedule-block .speaker-info{
+		padding-right: 0;
+	}
+
+	.rtl .banner-conference .time-countdown .counter-column{
+		margin-left: 0px;
+	}
+
+	.rtl .banner-conference .time-countdown .counter-column:last-child{
+		margin-left: 0;
+	}
+
+	.rtl .schedule-section.style-three .schedule-block .inner-box .inner{
+		padding: 30px 20px;
+	}
+
+	.rtl .banner-meetup .countdown .counter-column{
+		margin: 0 0 20px;
+	}
+
+	.rtl .feature-block-three .inner-box{
+		padding: 40px 20px;
+	}
+
+	.rtl .feature-block-three .icon-box{
+		left: auto;
+		right: 0;
+	}
+
+	.rtl .feature-block-three .link-box{
+		left: auto;
+		right: 0;
+	}
+
+	.rtl .blog-single .lower-content blockquote{
+		padding: 35px 20px;
+	}
+
+	.rtl .blog-single .lower-content blockquote .icon{
+		left: auto;
+		right: 0;
+	}
+
+	.rtl .buy-ticket .ticket-form{
+		padding: 30px 20px;
+	}
+
+	.rtl .register-section .title-column .inner{
+		padding: 50px 20px 20px;
+	}
+
+	.rtl .comments-area .comment{
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.rtl .comments-area .comment-box .author-thumb{
+		left: auto;
+		right: 0;
+	}
+	
+	.search-popup .search-form fieldset input[type="search"]{
+		padding:20px 20px;
+	}
+	
+	.search-popup .search-form fieldset input[type="submit"]{
+		position:relative;
+		width:100%;
+		display:block;
+	}
+	
+}
+
+@media only screen and (max-width: 479px) {
+
+}
